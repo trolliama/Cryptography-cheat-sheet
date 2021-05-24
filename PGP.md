@@ -39,3 +39,9 @@
   A digital signature proves to the recipient that no one has manipulated the message or the sender in some how. The way that it's made it's using a combination 
   of the sender private key and a mathematical redux (message digest) of the plaintext message. This combination will generate an unique number known as the 
   digital signature
+
+
+
+## References
+- [ProtonMail Blog Post](https://protonmail.com/blog/what-is-pgp-encryption/)
+- [Binance Academy Blog Post](https://academy.binance.com/en/articles/what-is-pgp)
