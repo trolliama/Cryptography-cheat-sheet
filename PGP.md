@@ -27,7 +27,7 @@
    Such a key is generated randomly through a symmetric encryption system and each PGP communication session has a single session key.
    
    The session key and the encrypted message now need to be sent to the recipient. For acomplish this in a secure way the session key is encrypted with the 
-   public key of the recipient and sent to him with the encrypted message. So because the only way to decrypt the session key is using the recipient private 
+   public key of the recipient and sent to him with the encrypted message. So because the only feasible way to decrypt the session key is using the recipient private 
    key, the message is sent securely
    
    In the reipient side the session key is decrypted with his private key and then used to decrypt the message. Simple rigth?
